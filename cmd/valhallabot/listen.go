@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/bwmarrin/discordgo"
 	"strings"
+
+	"github.com/bwmarrin/discordgo"
 )
 
 // listen for new messages
@@ -15,10 +16,10 @@ func messageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
 	switch m.Content {
 	case "!server":
 		GetValhallaStatus(s, m)
-	case
 	default:
-		if strings.Contains(m.Content, "@VKNG | imak") {
-
+		// imak pings
+		if strings.Contains(m.Content, UserImak) {
+			countImakPinged(s, m)
 		}
 	}
 }

@@ -1,0 +1,8 @@
+[database]
+path = "valhallabot.db"
+
+[discord]
+token = "discord_bot_token"
+
+[battlemetrics]
+token = "battle_metrics_api_token"
