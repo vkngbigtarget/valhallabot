@@ -50,15 +50,15 @@ func countImakPinged(s *discordgo.Session, m *discordgo.MessageCreate) {
 		"2 + 2 is 4, plus one ping that's #pings. Quick maths.",
 		"Hello? Is it #pings pings you're looking for?",
 		"Never gonna give you up. Never gonna let you down. Gonna ping you #pings times and notify you!",
-		"#yes-yes-#ping!",
-		"You have #ping unread messages!",
+		"#yes-yes-#pings!",
+		"You have #pings unread messages!",
 		"Ding! #pings aren't done! Ding! #pings aren't done!",
 		"Oh mama mia, mama mia! Mama mia #pings and more to go!",
-		"I know what you're thinking. Did I just get pinged #pings-1 or only #ping? Answer? #ping.",
-		"#ping reeeeeeeeeeeeeeeeeeeeeeee's recorded, autism levels still rising...",
-		"One, two, three, four, #ping. Everybody in the car, so come on, let's ride!",
-		"These pings are THICC with #ping c's",
-		"#ping dollar sucky sucky! Imak love you long time!",
+		"I know what you're thinking. Did I just get pinged #pings-1 or only #pings? Answer? #pings.",
+		"#pings reeeeeeeeeeeeeeeeeeeeeeee's recorded, autism levels still rising...",
+		"One, two, three, four, #pings. Everybody in the car, so come on, let's ride!",
+		"These pings are THICC with #pings c's",
+		"#pings dollar sucky sucky! Imak love you long time!",
 	}
 
 	msg := rMsgs[randInt(0, len(rMsgs)-1)]
