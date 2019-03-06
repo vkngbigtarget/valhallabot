@@ -54,7 +54,7 @@ func countImakPinged(s *discordgo.Session, m *discordgo.MessageCreate) {
 		"You have #pings unread messages!",
 		"Ding! #pings aren't done! Ding! #pings aren't done!",
 		"Oh mama mia, mama mia! Mama mia #pings and more to go!",
-		"#ping reeeeeeeeeeeeeeeeeeeeeeee's recorded, autism levels still rising...",
+		"#pings reeeeeeeeeeeeeeeeeeeeeeee's recorded, autism levels still rising...",
 		"One, two, three, four, #ping. Everybody in the car, so come on, let's ride!",
 		"These pings are THICC with #ping c's",
 		"#ping dollar sucky sucky! Imak love you long time!",
