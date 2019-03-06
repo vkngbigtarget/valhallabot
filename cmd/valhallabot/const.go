@@ -6,7 +6,7 @@ import (
 )
 
 const (
-	UserImak = "<@!238549436748398594>"
+	UserImak = "238549436748398594>"
 )
 
 func randInt(min int, max int) int {
