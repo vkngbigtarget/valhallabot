@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"math/rand"
 	"strconv"
 	"strings"
 	"time"
@@ -91,7 +92,8 @@ func countImakPinged(s *discordgo.Session, m *discordgo.MessageCreate) {
 		"Whoa! Did you see that? A stampede of #pings pings just flew by!",
 	}
 
-	msg := rMsgs[randInt(0, len(rMsgs)-1)]
+	rand.Seed(time.Now().Unix())
+	msg := rMsgs[rand.Intn(len(rMsgs))]
 	msg = strings.Replace(msg, "#pings", strconv.Itoa(data.Count), -1)
 	s.ChannelMessageSend(m.ChannelID, msg)
 }
